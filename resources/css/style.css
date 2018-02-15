@@ -1,6 +1,6 @@
 /* Universal Code */
 
-b {
+body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -10,9 +10,15 @@ b {
 }
 
 header {
-  display: inline-block;
+  display: flex;
   position: fixed;
+  z-index: 1;
   padding-left: 10px;
   height: 69px;
   border-bottom: 1px solid seashell;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
 }
