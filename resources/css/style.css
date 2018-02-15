@@ -8,3 +8,11 @@ b {
   opacity: 0.9;
   text-align: center;
 }
+
+header {
+  display: inline-block;
+  position: fixed;
+  padding-left: 10px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
